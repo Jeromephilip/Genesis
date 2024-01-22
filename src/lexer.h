@@ -3,19 +3,31 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 #include "token.h"
+#include <unordered_map>
 
 class Lexer {
-    std::string input;
-    int position;
-    int peek;
-    char currentChar;
-
-    Lexer(std::string input, int position, char currentChar); // constructor
-    
-    std::string readChar(); // read the current character
-
-    Token returnToken();// return the corresponding token type
+    private:
+        std::string input;
+        int curPos;
+        int peek;
+        std::string currentChar;
+        std::unordered_map<std::string, tokenType> keyIds = {
+            {"int", INT},
+            {"string", STRING},
+            {"func", FUNCTION},
+            {"print", PRINT},
+            {"char", CHAR},
+            {"float", FLOAT}
+        };
+    public:
+        Lexer(std::string ); // constructor
+        void readChar(); // read the current character
+        Token nextToken();// return the corresponding token type
+        void printTokens(const std::vector<Token> );
+        bool skipWhiteSpace();
+        std::string findIdentifier();
 };
 
-#endif LEXER_H
+#endif

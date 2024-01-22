@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jeromephilip/dev/compiler/tst/Formula-test.cpp" "tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o" "gcc" "tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o.d"
+  "/Users/jeromephilip/dev/compiler/tst/lexeme_test.cpp" "tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o" "gcc" "tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o.d"
   "/Users/jeromephilip/dev/compiler/tst/main.cpp" "tst/CMakeFiles/compiler_tst.dir/main.cpp.o" "gcc" "tst/CMakeFiles/compiler_tst.dir/main.cpp.o.d"
   )
 

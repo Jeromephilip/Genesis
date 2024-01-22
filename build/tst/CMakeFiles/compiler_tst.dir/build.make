@@ -69,19 +69,19 @@ include tst/CMakeFiles/compiler_tst.dir/progress.make
 # Include the compile flags for this target's objects.
 include tst/CMakeFiles/compiler_tst.dir/flags.make
 
-tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o: tst/CMakeFiles/compiler_tst.dir/flags.make
-tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o: /Users/jeromephilip/dev/compiler/tst/Formula-test.cpp
-tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o: tst/CMakeFiles/compiler_tst.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeromephilip/dev/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o"
-	cd /Users/jeromephilip/dev/compiler/build/tst && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o -MF CMakeFiles/compiler_tst.dir/Formula-test.cpp.o.d -o CMakeFiles/compiler_tst.dir/Formula-test.cpp.o -c /Users/jeromephilip/dev/compiler/tst/Formula-test.cpp
+tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o: tst/CMakeFiles/compiler_tst.dir/flags.make
+tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o: /Users/jeromephilip/dev/compiler/tst/lexeme_test.cpp
+tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o: tst/CMakeFiles/compiler_tst.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeromephilip/dev/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o"
+	cd /Users/jeromephilip/dev/compiler/build/tst && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o -MF CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o.d -o CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o -c /Users/jeromephilip/dev/compiler/tst/lexeme_test.cpp
 
-tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/compiler_tst.dir/Formula-test.cpp.i"
-	cd /Users/jeromephilip/dev/compiler/build/tst && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeromephilip/dev/compiler/tst/Formula-test.cpp > CMakeFiles/compiler_tst.dir/Formula-test.cpp.i
+tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/compiler_tst.dir/lexeme_test.cpp.i"
+	cd /Users/jeromephilip/dev/compiler/build/tst && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeromephilip/dev/compiler/tst/lexeme_test.cpp > CMakeFiles/compiler_tst.dir/lexeme_test.cpp.i
 
-tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/compiler_tst.dir/Formula-test.cpp.s"
-	cd /Users/jeromephilip/dev/compiler/build/tst && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeromephilip/dev/compiler/tst/Formula-test.cpp -o CMakeFiles/compiler_tst.dir/Formula-test.cpp.s
+tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/compiler_tst.dir/lexeme_test.cpp.s"
+	cd /Users/jeromephilip/dev/compiler/build/tst && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeromephilip/dev/compiler/tst/lexeme_test.cpp -o CMakeFiles/compiler_tst.dir/lexeme_test.cpp.s
 
 tst/CMakeFiles/compiler_tst.dir/main.cpp.o: tst/CMakeFiles/compiler_tst.dir/flags.make
 tst/CMakeFiles/compiler_tst.dir/main.cpp.o: /Users/jeromephilip/dev/compiler/tst/main.cpp
@@ -99,13 +99,13 @@ tst/CMakeFiles/compiler_tst.dir/main.cpp.s: cmake_force
 
 # Object files for target compiler_tst
 compiler_tst_OBJECTS = \
-"CMakeFiles/compiler_tst.dir/Formula-test.cpp.o" \
+"CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o" \
 "CMakeFiles/compiler_tst.dir/main.cpp.o"
 
 # External object files for target compiler_tst
 compiler_tst_EXTERNAL_OBJECTS =
 
-tst/compiler_tst: tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o
+tst/compiler_tst: tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o
 tst/compiler_tst: tst/CMakeFiles/compiler_tst.dir/main.cpp.o
 tst/compiler_tst: tst/CMakeFiles/compiler_tst.dir/build.make
 tst/compiler_tst: src/libcompiler_lib.a

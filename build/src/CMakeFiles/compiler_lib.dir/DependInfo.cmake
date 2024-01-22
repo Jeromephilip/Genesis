@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jeromephilip/dev/compiler/src/Formula.cpp" "src/CMakeFiles/compiler_lib.dir/Formula.cpp.o" "gcc" "src/CMakeFiles/compiler_lib.dir/Formula.cpp.o.d"
+  "/Users/jeromephilip/dev/compiler/src/lexer.cpp" "src/CMakeFiles/compiler_lib.dir/lexer.cpp.o" "gcc" "src/CMakeFiles/compiler_lib.dir/lexer.cpp.o.d"
   "/Users/jeromephilip/dev/compiler/src/main.cpp" "src/CMakeFiles/compiler_lib.dir/main.cpp.o" "gcc" "src/CMakeFiles/compiler_lib.dir/main.cpp.o.d"
   )
 

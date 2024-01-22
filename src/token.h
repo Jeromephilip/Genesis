@@ -21,7 +21,12 @@ enum tokenType {
     PLUS,
     COMMA,
     SEMICOLON,
+    COLON
 
+    INT,
+    STRING,
+    CHAR,
+    FLOAT
 };
 
 struct Token {
@@ -29,4 +34,4 @@ struct Token {
     std::string val;
 };
 
-#endif TOKEN_H
+#endif

@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcompiler_lib.a CMakeFiles/compiler_lib.dir/Formula.cpp.o CMakeFiles/compiler_lib.dir/main.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcompiler_lib.a CMakeFiles/compiler_lib.dir/lexer.cpp.o CMakeFiles/compiler_lib.dir/main.cpp.o
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcompiler_lib.a

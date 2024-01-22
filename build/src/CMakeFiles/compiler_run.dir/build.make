@@ -69,19 +69,19 @@ include src/CMakeFiles/compiler_run.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/compiler_run.dir/flags.make
 
-src/CMakeFiles/compiler_run.dir/Formula.cpp.o: src/CMakeFiles/compiler_run.dir/flags.make
-src/CMakeFiles/compiler_run.dir/Formula.cpp.o: /Users/jeromephilip/dev/compiler/src/Formula.cpp
-src/CMakeFiles/compiler_run.dir/Formula.cpp.o: src/CMakeFiles/compiler_run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeromephilip/dev/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/compiler_run.dir/Formula.cpp.o"
-	cd /Users/jeromephilip/dev/compiler/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/compiler_run.dir/Formula.cpp.o -MF CMakeFiles/compiler_run.dir/Formula.cpp.o.d -o CMakeFiles/compiler_run.dir/Formula.cpp.o -c /Users/jeromephilip/dev/compiler/src/Formula.cpp
+src/CMakeFiles/compiler_run.dir/lexer.cpp.o: src/CMakeFiles/compiler_run.dir/flags.make
+src/CMakeFiles/compiler_run.dir/lexer.cpp.o: /Users/jeromephilip/dev/compiler/src/lexer.cpp
+src/CMakeFiles/compiler_run.dir/lexer.cpp.o: src/CMakeFiles/compiler_run.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeromephilip/dev/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/compiler_run.dir/lexer.cpp.o"
+	cd /Users/jeromephilip/dev/compiler/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/compiler_run.dir/lexer.cpp.o -MF CMakeFiles/compiler_run.dir/lexer.cpp.o.d -o CMakeFiles/compiler_run.dir/lexer.cpp.o -c /Users/jeromephilip/dev/compiler/src/lexer.cpp
 
-src/CMakeFiles/compiler_run.dir/Formula.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/compiler_run.dir/Formula.cpp.i"
-	cd /Users/jeromephilip/dev/compiler/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeromephilip/dev/compiler/src/Formula.cpp > CMakeFiles/compiler_run.dir/Formula.cpp.i
+src/CMakeFiles/compiler_run.dir/lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/compiler_run.dir/lexer.cpp.i"
+	cd /Users/jeromephilip/dev/compiler/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeromephilip/dev/compiler/src/lexer.cpp > CMakeFiles/compiler_run.dir/lexer.cpp.i
 
-src/CMakeFiles/compiler_run.dir/Formula.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/compiler_run.dir/Formula.cpp.s"
-	cd /Users/jeromephilip/dev/compiler/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeromephilip/dev/compiler/src/Formula.cpp -o CMakeFiles/compiler_run.dir/Formula.cpp.s
+src/CMakeFiles/compiler_run.dir/lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/compiler_run.dir/lexer.cpp.s"
+	cd /Users/jeromephilip/dev/compiler/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeromephilip/dev/compiler/src/lexer.cpp -o CMakeFiles/compiler_run.dir/lexer.cpp.s
 
 src/CMakeFiles/compiler_run.dir/main.cpp.o: src/CMakeFiles/compiler_run.dir/flags.make
 src/CMakeFiles/compiler_run.dir/main.cpp.o: /Users/jeromephilip/dev/compiler/src/main.cpp
@@ -99,13 +99,13 @@ src/CMakeFiles/compiler_run.dir/main.cpp.s: cmake_force
 
 # Object files for target compiler_run
 compiler_run_OBJECTS = \
-"CMakeFiles/compiler_run.dir/Formula.cpp.o" \
+"CMakeFiles/compiler_run.dir/lexer.cpp.o" \
 "CMakeFiles/compiler_run.dir/main.cpp.o"
 
 # External object files for target compiler_run
 compiler_run_EXTERNAL_OBJECTS =
 
-src/compiler_run: src/CMakeFiles/compiler_run.dir/Formula.cpp.o
+src/compiler_run: src/CMakeFiles/compiler_run.dir/lexer.cpp.o
 src/compiler_run: src/CMakeFiles/compiler_run.dir/main.cpp.o
 src/compiler_run: src/CMakeFiles/compiler_run.dir/build.make
 src/compiler_run: src/CMakeFiles/compiler_run.dir/link.txt

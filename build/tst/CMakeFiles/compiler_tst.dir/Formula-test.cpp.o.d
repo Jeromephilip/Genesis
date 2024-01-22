@@ -842,4 +842,5 @@ tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o: \
   /Users/jeromephilip/dev/compiler/lib/googletest/googletest/include/gtest/gtest-typed-test.h \
   /Users/jeromephilip/dev/compiler/lib/googletest/googletest/include/gtest/gtest_pred_impl.h \
   /Users/jeromephilip/dev/compiler/lib/googletest/googletest/include/gtest/gtest_prod.h \
-  /Users/jeromephilip/dev/compiler/src/Formula.h
+  /Users/jeromephilip/dev/compiler/src/token.h \
+  /Users/jeromephilip/dev/compiler/src/lexer.h

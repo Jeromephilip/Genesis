@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/compiler_lib.dir/Formula.cpp.o"
-  "CMakeFiles/compiler_lib.dir/Formula.cpp.o.d"
+  "CMakeFiles/compiler_lib.dir/lexer.cpp.o"
+  "CMakeFiles/compiler_lib.dir/lexer.cpp.o.d"
   "CMakeFiles/compiler_lib.dir/main.cpp.o"
   "CMakeFiles/compiler_lib.dir/main.cpp.o.d"
   "libcompiler_lib.a"

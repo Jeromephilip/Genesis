@@ -175,29 +175,29 @@ compiler_tst/fast:
 	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/compiler_tst.dir/build.make tst/CMakeFiles/compiler_tst.dir/build
 .PHONY : compiler_tst/fast
 
-Formula-test.o: Formula-test.cpp.o
-.PHONY : Formula-test.o
+lexeme_test.o: lexeme_test.cpp.o
+.PHONY : lexeme_test.o
 
 # target to build an object file
-Formula-test.cpp.o:
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/compiler_tst.dir/build.make tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.o
-.PHONY : Formula-test.cpp.o
+lexeme_test.cpp.o:
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/compiler_tst.dir/build.make tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.o
+.PHONY : lexeme_test.cpp.o
 
-Formula-test.i: Formula-test.cpp.i
-.PHONY : Formula-test.i
+lexeme_test.i: lexeme_test.cpp.i
+.PHONY : lexeme_test.i
 
 # target to preprocess a source file
-Formula-test.cpp.i:
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/compiler_tst.dir/build.make tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.i
-.PHONY : Formula-test.cpp.i
+lexeme_test.cpp.i:
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/compiler_tst.dir/build.make tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.i
+.PHONY : lexeme_test.cpp.i
 
-Formula-test.s: Formula-test.cpp.s
-.PHONY : Formula-test.s
+lexeme_test.s: lexeme_test.cpp.s
+.PHONY : lexeme_test.s
 
 # target to generate assembly for a file
-Formula-test.cpp.s:
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/compiler_tst.dir/build.make tst/CMakeFiles/compiler_tst.dir/Formula-test.cpp.s
-.PHONY : Formula-test.cpp.s
+lexeme_test.cpp.s:
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/compiler_tst.dir/build.make tst/CMakeFiles/compiler_tst.dir/lexeme_test.cpp.s
+.PHONY : lexeme_test.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -236,9 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... compiler_tst"
-	@echo "... Formula-test.o"
-	@echo "... Formula-test.i"
-	@echo "... Formula-test.s"
+	@echo "... lexeme_test.o"
+	@echo "... lexeme_test.i"
+	@echo "... lexeme_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

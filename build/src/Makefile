@@ -189,32 +189,32 @@ compiler_lib/fast:
 	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_lib.dir/build.make src/CMakeFiles/compiler_lib.dir/build
 .PHONY : compiler_lib/fast
 
-Formula.o: Formula.cpp.o
-.PHONY : Formula.o
+lexer.o: lexer.cpp.o
+.PHONY : lexer.o
 
 # target to build an object file
-Formula.cpp.o:
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_run.dir/build.make src/CMakeFiles/compiler_run.dir/Formula.cpp.o
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_lib.dir/build.make src/CMakeFiles/compiler_lib.dir/Formula.cpp.o
-.PHONY : Formula.cpp.o
+lexer.cpp.o:
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_run.dir/build.make src/CMakeFiles/compiler_run.dir/lexer.cpp.o
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_lib.dir/build.make src/CMakeFiles/compiler_lib.dir/lexer.cpp.o
+.PHONY : lexer.cpp.o
 
-Formula.i: Formula.cpp.i
-.PHONY : Formula.i
+lexer.i: lexer.cpp.i
+.PHONY : lexer.i
 
 # target to preprocess a source file
-Formula.cpp.i:
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_run.dir/build.make src/CMakeFiles/compiler_run.dir/Formula.cpp.i
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_lib.dir/build.make src/CMakeFiles/compiler_lib.dir/Formula.cpp.i
-.PHONY : Formula.cpp.i
+lexer.cpp.i:
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_run.dir/build.make src/CMakeFiles/compiler_run.dir/lexer.cpp.i
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_lib.dir/build.make src/CMakeFiles/compiler_lib.dir/lexer.cpp.i
+.PHONY : lexer.cpp.i
 
-Formula.s: Formula.cpp.s
-.PHONY : Formula.s
+lexer.s: lexer.cpp.s
+.PHONY : lexer.s
 
 # target to generate assembly for a file
-Formula.cpp.s:
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_run.dir/build.make src/CMakeFiles/compiler_run.dir/Formula.cpp.s
-	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_lib.dir/build.make src/CMakeFiles/compiler_lib.dir/Formula.cpp.s
-.PHONY : Formula.cpp.s
+lexer.cpp.s:
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_run.dir/build.make src/CMakeFiles/compiler_run.dir/lexer.cpp.s
+	cd /Users/jeromephilip/dev/compiler/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/compiler_lib.dir/build.make src/CMakeFiles/compiler_lib.dir/lexer.cpp.s
+.PHONY : lexer.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -257,9 +257,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... compiler_lib"
 	@echo "... compiler_run"
-	@echo "... Formula.o"
-	@echo "... Formula.i"
-	@echo "... Formula.s"
+	@echo "... lexer.o"
+	@echo "... lexer.i"
+	@echo "... lexer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
