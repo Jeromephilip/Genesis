@@ -1,12 +1,12 @@
 #include "lexer.h"
 #include <string>
-#include <ctype>
+#include <cctype>
 
 Lexer::Lexer(std::string input) {
     this->input = input;
     this->curPos = 0;
     this->peek = 0; // char to peek at
-    this->currentChar = "";
+    this->currentChar = '';
 };  
 
 void Lexer::readChar() {
@@ -25,38 +25,38 @@ Token Lexer::nextToken() {
 
     this->skipWhiteSpace();
 
-    if (this->currentChar == "}") {
+    if (this->currentChar == '}') {
         t = Token{RBRACK, this->currentChar};
-    } else if (this->currentChar == "{") {
+    } else if (this->currentChar == '{') {
         t = Token{LBRACK, this->currentChar};
-    } else if (this->currentChar == ")") {
+    } else if (this->currentChar == ')') {
         t = Token{RBRACK, this->currentChar};
-    } else if (this->currentChar == "(") {
+    } else if (this->currentChar == '(') {
         t = Token{LBRACK, this->currentChar};
-    } else if (this->currentChar == "+") {
+    } else if (this->currentChar == '+') {
         t = Token{PLUS, this->currentChar};
-    } else if (this->currentChar == ",") {
+    } else if (this->currentChar == ',') {
         t = Token{COMMA, this->currentChar};
-    } else if (this->currentChar == "=") {
+    } else if (this->currentChar == '=') {
         t = Token{ASSIGN, this->currentChar};
-    } else if (this->currentChar == ";") {
+    } else if (this->currentChar == ';') {
         t = Token{SEMICOLON, this->currentChar};
-    } else if (this->currentChar == ":") {
+    } else if (this->currentChar == ':') {
         t = Token{COLON, this->currentChar};
     } else if (isalpha(this->currentChar)) {
-        id = this->findIdentifier();
+        std::string id = this->findIdentifier();
         if (keyIds.find(id) != keyIds.end()) {
             t = Token{keyIds[id], id};
         }
     } else {
-        t = Token{END_FILE, ""};
+        t = Token{END_FILE, ''};
     }
     this->readChar();
     return t;
 }
 
 void Lexer::skipWhiteSpace() {
-    if (this->currentChar == " " || this->currentChar == "\n" || this->currentChar == "\t" || this->currentChar == "\r") {
+    if (this->currentChar == ' ' || this->currentChar == '\n' || this->currentChar == '\t' || this->currentChar == '\r') {
         this->readChar();
     }
 }

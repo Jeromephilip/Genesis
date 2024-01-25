@@ -21,12 +21,13 @@ enum tokenType {
     PLUS,
     COMMA,
     SEMICOLON,
-    COLON
+    COLON,
 
     INT,
     STRING,
     CHAR,
     FLOAT
+    // add more types
 };
 
 struct Token {

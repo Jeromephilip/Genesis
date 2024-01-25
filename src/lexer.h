@@ -12,7 +12,7 @@ class Lexer {
         std::string input;
         int curPos;
         int peek;
-        std::string currentChar;
+        char currentChar;
         std::unordered_map<std::string, tokenType> keyIds = {
             {"int", INT},
             {"string", STRING},
@@ -28,6 +28,7 @@ class Lexer {
         void printTokens(const std::vector<Token> );
         bool skipWhiteSpace();
         std::string findIdentifier();
+        
 };
 
 #endif
