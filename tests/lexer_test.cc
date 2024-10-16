@@ -18,8 +18,8 @@ TEST(LexerTest, TokenizeSymbols1) {
     l->printTokens(tokens);
     // Assert
     ASSERT_EQ(tokens.size(), 5);
-    ASSERT_EQ(tokens[1].type, tokenType::COLON);
-    ASSERT_EQ(tokens[2].type, tokenType::SEMICOLON);
-    ASSERT_EQ(tokens[3].type, tokenType::PLUS);
-    ASSERT_EQ(tokens[4].type, tokenType::ASSIGN);
+    ASSERT_EQ(tokens[0].type, TokenType::COLON);
+    ASSERT_EQ(tokens[1].type, TokenType::SEMICOLON);
+    ASSERT_EQ(tokens[2].type, TokenType::PLUS);
+    ASSERT_EQ(tokens[3].type, TokenType::ASSIGN);
 }
